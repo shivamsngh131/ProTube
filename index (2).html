@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ProTube - Download</title>
+<meta name="description" content="ProTube: bina ads ka music player. Android ke liye free download.">
+<meta name="theme-color" content="#0b0b0f">
+<link rel="icon" href="icon1.png">
+<style>
+  :root {
+    --bg: #0b0b0f;
+    --card: #15151c;
+    --line: #262633;
+    --text: #f2f2f7;
+    --muted: #9a9aae;
+    --accent: #ff3b5c;
+    --accent2: #ff8a3d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+    line-height: 1.5;
+    background-image:
+      radial-gradient(60vmax 40vmax at 50% -10%, rgba(255,59,92,.22), transparent 60%),
+      radial-gradient(40vmax 30vmax at 90% 30%, rgba(255,138,61,.10), transparent 60%);
+    background-repeat: no-repeat;
+  }
+  .wrap { max-width: 560px; margin: 0 auto; padding: 56px 20px 40px; }
+  .hero { text-align: center; }
+  .logo {
+    width: 112px; height: 112px; border-radius: 26px; display: block; margin: 0 auto 20px;
+    box-shadow: 0 18px 50px rgba(255,59,92,.35), 0 0 0 1px rgba(255,255,255,.06);
+    animation: pop .7s cubic-bezier(.2,.9,.3,1.2) both;
+  }
+  h1 { font-size: 40px; letter-spacing: -.5px; animation: rise .7s .1s both; }
+  h1 span { background: linear-gradient(90deg, var(--accent), var(--accent2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .tag { color: var(--muted); margin-top: 8px; font-size: 17px; animation: rise .7s .2s both; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+    margin-top: 30px; padding: 16px 30px; border-radius: 999px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    color: #fff; font-weight: 700; font-size: 18px; text-decoration: none;
+    box-shadow: 0 12px 34px rgba(255,59,92,.4);
+    transition: transform .15s ease, box-shadow .15s ease;
+    animation: rise .7s .3s both;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn:active { transform: scale(.97); }
+  .meta { margin-top: 14px; color: var(--muted); font-size: 14px; animation: rise .7s .4s both; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 20px;
+    padding: 22px; margin-top: 36px; animation: rise .7s .5s both;
+  }
+  .card h2 { font-size: 18px; margin-bottom: 12px; }
+  ol { padding-left: 20px; }
+  li { margin: 10px 0; color: #d8d8e6; }
+  li b { color: var(--text); }
+  .feats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+  .feat { background: #101016; border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; font-size: 14px; color: #d8d8e6; }
+  .note { margin-top: 18px; font-size: 13px; color: var(--muted); }
+  .warn { color: #ffb86b; }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 36px; }
+  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes pop { from { opacity: 0; transform: scale(.7); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <section class="hero">
+    <img class="logo" src="icon.png" alt="ProTube logo">
+    <h1>Pro<span>Tube</span></h1>
+    <p class="tag">Bina ads ka music player. Gaana lagao, bas sunte jao.</p>
+
+    <!-- Neeche APK_URL apne GitHub Release ke link se badlo (script me) -->
+    <a id="dl" class="btn" href="#" download>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
+      Android ke liye Download
+    </a>
+    <div class="meta" id="meta">Android 7.0 ya naya chahiye</div>
+  </section>
+
+  <section class="card">
+    <h2>Install kaise karein</h2>
+    <ol>
+      <li><b>Download</b> button dabao. File <b>ProTube.apk</b> aapke phone me aa jayegi.</li>
+      <li>File kholo. Phone puchega <b>"Install unknown apps"</b>, to <b>Allow</b> kar do (Chrome ya Files ke liye).</li>
+      <li><b>Install</b> dabao. Bas, ProTube taiyaar hai!</li>
+    </ol>
+    <p class="note warn">"Harmful app" jaisa warning aa sakta hai, kyunki ye Play Store ki app nahi hai. Ye sirf is wajah se aata hai, "Install anyway" ya "More details" me jaakar aage badho.</p>
+  </section>
+
+  <section class="card">
+    <h2>Kya milega</h2>
+    <div class="feats">
+      <div class="feat">Search aur trending</div>
+      <div class="feat">Autoplay / suggested</div>
+      <div class="feat">Playlists aur favourites</div>
+      <div class="feat">Lyrics</div>
+      <div class="feat">Sleep timer</div>
+      <div class="feat">Dark / AMOLED themes</div>
+    </div>
+    <p class="note">Sirf Android par chalta hai. iPhone ke liye abhi nahi.</p>
+  </section>
+
+  <footer>Made with ❤️ by Shivam</footer>
+</div>
+
+<script>
+  // ====== YAHAN BADLO ======
+  // GitHub Releases ka "latest" link: github.com/<username>/<repo>/releases/latest/download/ProTube.apk
+  var APK_URL = "https://github.com/shivamsngh131/protube/releases/latest/download/ProTube.apk";
+  var VERSION = "1.0.0";
+  // =========================
+  var a = document.getElementById("dl");
+  a.href = APK_URL;
+  document.getElementById("meta").textContent = "Version " + VERSION + "  •  Android 7.0 ya naya chahiye";
+</script>
+</body>
+</html>
