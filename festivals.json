@@ -1,0 +1,162 @@
+{
+  "updated": "2026-11-08",
+  "festivals": [
+    {
+      "id": "diwali-2026",
+      "name": "Diwali",
+      "style": "diwali",
+      "start": "2026-11-07",
+      "end": "2026-11-08"
+    },
+    {
+      "id": "chhath-2026",
+      "name": "Chhath Puja",
+      "style": "chhath",
+      "start": "2026-11-15",
+      "end": "2026-11-16"
+    },
+    {
+      "id": "devdiwali-2026",
+      "name": "Dev Diwali",
+      "style": "diwali",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "greeting": "Dev Deepawali ki shubhkamnayein! Ghat-ghat diye jalein 🪔"
+    },
+    {
+      "id": "christmas-2026",
+      "name": "Christmas",
+      "style": "christmas",
+      "start": "2026-12-24",
+      "end": "2026-12-25"
+    },
+    {
+      "id": "newyear-2027",
+      "name": "Naya Saal",
+      "style": "newyear",
+      "start": "2026-12-31",
+      "end": "2027-01-01"
+    },
+    {
+      "id": "sankranti-2027",
+      "name": "Makar Sankranti",
+      "style": "sankranti",
+      "start": "2027-01-14",
+      "end": "2027-01-14"
+    },
+    {
+      "id": "republic-2027",
+      "name": "Republic Day",
+      "style": "republic",
+      "start": "2027-01-26",
+      "end": "2027-01-26"
+    },
+    {
+      "id": "vasant-2027",
+      "name": "Vasant Panchami",
+      "style": "vasant",
+      "start": "2027-02-11",
+      "end": "2027-02-11"
+    },
+    {
+      "id": "shivratri-2027",
+      "name": "Maha Shivratri",
+      "style": "shivratri",
+      "start": "2027-03-05",
+      "end": "2027-03-06"
+    },
+    {
+      "id": "eid-fitr-2027",
+      "name": "Eid",
+      "style": "eid",
+      "start": "2027-03-10",
+      "end": "2027-03-10"
+    },
+    {
+      "id": "holi-2027",
+      "name": "Holi",
+      "style": "holi",
+      "start": "2027-03-21",
+      "end": "2027-03-22"
+    },
+    {
+      "id": "ramnavami-2027",
+      "name": "Ram Navami",
+      "style": "ram",
+      "start": "2027-04-14",
+      "end": "2027-04-14"
+    },
+    {
+      "id": "hanuman-2027",
+      "name": "Hanuman Jayanti",
+      "style": "ram",
+      "start": "2027-04-20",
+      "end": "2027-04-20",
+      "greeting": "Jai Bajrangbali! Hanuman Jayanti ki shubhkamnayein 🚩"
+    },
+    {
+      "id": "independence-2027",
+      "name": "Independence Day",
+      "style": "republic",
+      "start": "2027-08-15",
+      "end": "2027-08-15"
+    },
+    {
+      "id": "rakhi-2027",
+      "name": "Raksha Bandhan",
+      "style": "rakhi",
+      "start": "2027-08-16",
+      "end": "2027-08-17"
+    },
+    {
+      "id": "janmashtami-2027",
+      "name": "Janmashtami",
+      "style": "janmashtami",
+      "start": "2027-08-24",
+      "end": "2027-08-25"
+    },
+    {
+      "id": "ganesh-2027",
+      "name": "Ganesh Chaturthi",
+      "style": "ganesh",
+      "start": "2027-09-03",
+      "end": "2027-09-04"
+    },
+    {
+      "id": "navratri-2027",
+      "name": "Navratri",
+      "style": "durga",
+      "start": "2027-09-30",
+      "end": "2027-10-01",
+      "greeting": "Navratri ki shubhkamnayein! Jai Mata Di 🔱"
+    },
+    {
+      "id": "durga-2027",
+      "name": "Durga Puja",
+      "style": "durga",
+      "start": "2027-10-07",
+      "end": "2027-10-08"
+    },
+    {
+      "id": "dussehra-2027",
+      "name": "Dussehra",
+      "style": "dussehra",
+      "start": "2027-10-09",
+      "end": "2027-10-09"
+    },
+    {
+      "id": "diwali-2027",
+      "name": "Diwali",
+      "style": "diwali",
+      "start": "2027-10-28",
+      "end": "2027-10-29"
+    },
+    {
+      "id": "chhath-2027",
+      "name": "Chhath Puja",
+      "style": "chhath",
+      "start": "2027-11-03",
+      "end": "2027-11-04"
+    }
+  ]
+}
