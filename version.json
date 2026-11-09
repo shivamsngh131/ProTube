@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4.0",
+  "versionCode": 6,
+  "versionName": "1.4.1",
   "apkUrl": "https://github.com/shivamsngh131/ProTube/releases/latest/download/ProTube.apk",
-  "notes": "Naya: Tyohaar themes (Diwali, Chhath, Holi, Durga Puja aur aur bhi, apne aap badlengi aur khud wapas aa jayengi), animated intro aur smooth animations, aur Downloads: gaana download karo aur bina internet ke suno."
+  "notes": "Redesigned player with download button and swipe gestures. Bug fixes."
 }
