@@ -1,6 +1,6 @@
 {
-  "versionCode": 6,
-  "versionName": "1.4.1",
+  "versionCode": 7,
+  "versionName": "1.5.0",
   "apkUrl": "https://github.com/shivamsngh131/ProTube/releases/latest/download/ProTube.apk",
-  "notes": "Redesigned player with download button and swipe gestures. Bug fixes."
+  "notes": "Listen Together, Data saver for slow connections. Bug fixes."
 }
